@@ -83,27 +83,8 @@
 }
 
 .contact-clean form .btn-primary {
-  background-color: #c0505a !important;
+  background-color: #055ada !important;
   margin-top: 15px;
   color: #fff;
-}
-
-.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
-  /*border-color: #dc3545;*/
-  box-shadow: 0 0 0 .2rem rgba(220,53,69,.25);
-}
-
-.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
-  /*border-color: #dc3545;*/
-  box-shadow: 0 0 0 .2rem rgba(220,53,69,.25);
-}
-
-.form-control.is-invalid, .was-validated .form-control:invalid {
-  /*border-color: #dc3545;*/
-  padding-right: calc(1.5em + .75rem);
-  background-image: url([svg]);
-  background-repeat: no-repeat;
-  background-position: right calc(.375em + .1875rem) center;
-  background-size: calc(.75em + .375rem) calc(.75em + .375rem);
 }
 

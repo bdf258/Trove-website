@@ -238,14 +238,13 @@ a {
 }
 
 #hubadl {
-  margin-left: 10%;
   text-align: center;
   margin-top: 7%;
 }
 
 #dist-lib-p {
-  margin-left: 10%;
   margin-top: 5%;
+  margin-left: 10%;
 }
 
 #form-div {
@@ -261,5 +260,53 @@ a {
     padding-right: 10%;
     padding-left: 10%;
   }
+}
+
+#navcol-1 {
+  background-color: #fff;
+}
+
+@media (min-width: 600px) {
+  #navcol-1 {
+    background-color: #ffffff00;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 24px;
+  color: #111111;
+}
+
+@media (min-width: 576px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    color: #111111;
+  }
+}
+
+#essex {
+  max-height: 600px;
+}
+
+#champion-form {
+  align-self: center;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #c0505a;
+  /*border-color: #005cbf;*/
+}
+
+#champion-input {
+  margin-right: 8px;
+}
+
+#chamption-all {
+  align-self: center;
+}
+
+#form-all {
+  margin-top: 5%;
 }
 

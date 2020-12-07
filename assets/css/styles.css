@@ -1,317 +1,188 @@
-@media (min-width: 576px) {
-  .row {
-    margin-bottom: 40%;
-  }
+.landing-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #024A59;
 }
 
-@media (min-width: 768px) {
-  .col {
-    margin-top: 0%;
-  }
+.landing-bck {
+  height: inherit;
+  margin-top: -20px;
 }
 
-@media (min-width: 576px) {
-  .col#BMB {
-    margin-top: 100%;
-  }
+.landing-phone-div {
+  width: 20vw;
+  height: auto;
+  margin-top: 20vh;
 }
 
-@media (min-width: 576px) {
-  #BMB-block {
-    height: 300px;
-  }
-}
-
-.d-xl-flex.justify-content-xl-center {
-  margin-top: 0%;
-}
-
-.d-xl-flex.justify-content-xl-center {
-  margin-top: -40%;
-}
-
-@media (min-width: 576px) {
-  #wawdt {
-    margin-top: -30%;
-  }
-}
-
-@media (min-width: 1200px) {
-  #wawdt {
-    margin-top: -20%;
-  }
-}
-
-@media (min-width: 992px) {
-  #wawdt {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-}
-
-@media (min-width: 768px) {
-  p {
-    text-align: left;
-    font-size: 20px;
-    margin-left: 5%;
-    width: 80%;
-  }
-}
-
-@media (max-width: 576px) {
-  p {
-    text-align: center;
-    font-size: 16px;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-}
-
-@media (min-width: 768px) {
-  h2 {
-    text-align: left;
-    margin-left: 5%;
-  }
-}
-
-@media (max-width: 576px) {
-  h2 {
-    text-align: center;
-  }
+.phone-landing {
+  height: inherit;
+  width: inherit;
 }
 
 .h1, h1 {
-  text-align: center;
+  font-size: 3rem;
+  font-family: 'lora';
+  font-weight: 600;
+  color: #f2f2f2;
+  margin-top: 20vh;
 }
 
-@media (min-width: 768px) {
-  .h1, h1 {
-    text-align: left;
-    margin-left: 5%;
-  }
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #ffffff00;
+  border-radius: .3rem;
 }
 
-.btn-div {
-  text-align: center;
+.info-text {
+  color: #f2f2f2;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-size: 1rem;
 }
 
-@media (min-width: 768px) {
-  .btn-div {
-    text-align: left;
-    margin-left: 5%;
-  }
+.form-control.cta-input {
+  max-width: 300px;
+  border: 2px solid #BF505A;
+  border-radius: 4px;
 }
 
-.text-div {
-  margin-top: 20%;
-}
-
-@media (max-width: 768px) {
-  #loc-pic {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  #BMB-block {
-    height: 400px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #loc-pic {
-    margin-top: -10%;
-  }
-}
-
-#top-block {
-  margin-top: 10%;
-}
-
-@media (min-width: 768px) {
-  #beta1 {
-    justify-content: left;
-    margin-bottom: 2%;
-  }
-}
-
-@media (max-width: 700px) {
-  #beta1 {
-    justify-content: center;
-    margin-bottom: 2%;
-  }
-}
-
-#email1 {
-  margin-right: 8px;
-}
-
-@media (min-width: 600px) {
-  #email1 {
-    margin-bottom: 8px;
-  }
-}
-
-@media (min-width: 992px) {
-  #email1 {
-    margin-bottom: 0px;
-  }
-}
-
-@media (min-width: 768px) {
-  #research {
-    margin-left: 10%;
-  }
-}
-
-#wysju {
-  text-align: center;
-  margin-left: 0;
-}
-
-#article-div {
-  text-align: center;
-}
-
-#h1-research {
-  margin-left: 0;
-  margin-top: 7%;
-}
-
-#byline {
-  margin-left: 10%;
-  margin-right: 5%;
-}
-
-#vid-div {
-  margin-top: 7%;
-}
-
-#h1-research {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-#vid-research {
-  width: 100%;
-  height: auto;
-}
-
-iframe {
-  width: 280px;
-  height: 157px;
-}
-
-@media (min-width: 576px) {
-  iframe {
-    width: 560px;
-    height: 325px;
-  }
-}
-
-.link {
-  color: rgb(192,80,90);
-}
-
-a {
-  color: #c0505a;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-#research-long {
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-bottom: 5%;
-}
-
-#video-text {
-  text-align: center;
-  margin-left: 10%;
-}
-
-@media (min-width: 992px) {
-  #research-long {
-    padding-right: 15%;
-    padding-left: 15%;
-  }
-}
-
-#hubadl {
-  text-align: center;
-  margin-top: 7%;
-}
-
-#dist-lib-p {
-  margin-top: 5%;
-  margin-left: 10%;
-}
-
-#form-div {
-  margin-bottom: 20%;
-}
-
-#champion-1 {
-  margin-top: 3%;
-}
-
-@media (min-width: 992px) {
-  #dist-lib-p {
-    padding-right: 10%;
-    padding-left: 10%;
-  }
-}
-
-#navcol-1 {
-  background-color: #fff;
-}
-
-@media (min-width: 600px) {
-  #navcol-1 {
-    background-color: #ffffff00;
-  }
-}
-
-.navbar-light .navbar-nav .nav-link {
-  font-size: 24px;
-  color: #111111;
-}
-
-@media (min-width: 576px) {
-  .navbar-light .navbar-nav .nav-link {
-    font-size: 16px;
-    color: #ffffff;
-  }
-}
-
-#essex {
-  max-height: 500px;
-}
-
-#champion-form {
-  align-self: center;
+.cta-button {
+  margin-left: 16px;
+  background-color: #BF505A;
+  border: none;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #c0505a;
-  /*border-color: #005cbf;*/
+  background-color: #D9145C;
+  border-color: #D9145C;
 }
 
-#champion-input {
-  margin-right: 8px;
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #D9145C;
+  border-color: #D9145C;
+  box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
 }
 
-#chamption-all {
-  align-self: center;
+.btn-primary:hover {
+  color: #fff;
+  background-color: #D9145C;
+  border-color: #D9145C;
 }
 
-#form-all {
-  margin-top: 5%;
+.landing-row {
+  margin: 5vw;
+  margin-top: 0;
 }
 
-#my-books {
-  max-height: 500px;
-  margin-top: 10%;
+.cutout {
+  border-right: 100vw solid #f2f2f2;
+  border-top: 100px solid transparent;
+  margin-top: -100px;
+}
+
+.body {
+  background-color: #f2f2f2;
+}
+
+.landing-img-div {
+  width: inherit;
+  margin-top: 20vh;
+}
+
+.landing-img {
+  width: 50%;
+}
+
+.h2, h2 {
+  font-size: 2rem;
+  font-family: 'lora';
+  font-weight: 600;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'open sans';
+}
+
+.row.benefits-row {
+  margin-top: 10vh;
+}
+
+.benefits {
+  margin-top: 20vh;
+}
+
+.key-value-p {
+  max-width: 400px;
+}
+
+.benefits-2 {
+}
+
+.h2, h2 {
+  max-width: 400px;
+}
+
+.fa.fa-arrow-down.down {
+  color: #f2f2f2;
+  padding-top: 36px;
+}
+
+.how-it-works {
+  color: #232323;
+}
+
+.illustration {
+  width: inherit;
+}
+
+.how-desc {
+  max-width: 200px;
+}
+
+#books {
+  margin-bottom: 5vh;
+}
+
+#teacup {
+  width: 110%;
+  margin-left: -36px;
+}
+
+.how-col {
+  margin-top: 5vh;
+}
+
+#back {
+  margin-bottom: 40vh;
+}
+
+#first {
+  margin-top: 40vh;
+}
+
+.row.research-row {
+  margin: 5vh 5vw 5vh 5vw;
+}
+
+.copyright {
+  color: #fff;
+  font-family: 'lora';
+  font-size: 12px;
+}
+
+.fill {
+  margin-top: -24px;
+  height: 36px;
+  background-color: #024A59;
+}
+
+.library {
+  margin-bottom: 40vh;
 }
 

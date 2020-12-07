@@ -1,0 +1,296 @@
+.benefits-block {
+  background-color: #3D85C6;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+
+.infographic {
+  height: 10vh;
+}
+
+.info-text {
+  color: white;
+  margin-top: 2vh;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'Poppins';
+}
+
+#introtext {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  font-size: 2rem;
+}
+
+.customers {
+  color: white;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.h3, h3 {
+  font-family: 'Poppins';
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 5vh;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 8px;
+}
+
+.text-left.benefit-text {
+  margin-top: 5vh;
+  padding: 16px;
+  padding-left: 2vw;
+  padding-right: 2vh;
+}
+
+.text-center.bene-div {
+  border-radius: 16px;
+  box-shadow: 0px 0px 12px #00000036;
+  padding-top: 32px;
+  background-color: #fff;
+}
+
+.col-md-4.risks-col {
+  margin-top: 2vh;
+}
+
+.col-md-4.bene-col {
+  margin-top: 2vh;
+}
+
+.testimonial:hover .testimonial-img {
+  box-shadow: 0px 0px 12px #000000;
+  border-radius: 16px;
+  padding: 32px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.testimonial {
+  box-shadow: 0px 0px 12px #e1e1e1;
+  border-radius: 16px;
+  padding: 32px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin: 32px;
+  height: 300px;
+}
+
+.display-testimonial:hover {
+  box-shadow: 0px 0px 12px #e1e1e1;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.img-testimonial {
+  width: 100px;
+  margin-top: 5vh;
+}
+
+.testimonal:hover {
+}
+
+.testimonial:hover .logo-testimonial {
+  display: none;
+}
+
+.text-testimonial {
+  display: none;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.testimonial:hover .text-testimonial {
+  display: block;
+}
+
+.mini-img {
+  width: 100px;
+  display: none;
+  margin-top: 2vh;
+}
+
+.testimonial:hover .mini-img {
+  display: block;
+}
+
+.testimonial:hover {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+@media (max-width: 399px) {
+  .logo-testimonial {
+    height: 60px;
+  }
+}
+
+@media (min-width: 400px) {
+  .logo-testimonial {
+    height: 100px;
+  }
+}
+
+.big-img {
+  width: 60vw;
+}
+
+.exploded-div {
+  height: auto;
+  overflow: hidden;
+}
+
+.supporters {
+  height: 50px;
+}
+
+.form-control.input {
+  background-color: #024A59;
+  color: #232323;
+  margin: 12px;
+  max-width: 400px;
+}
+
+.form-control:focus {
+  color: #232323;
+  background-color: #fff;
+  border-color: #fff;
+  outline: 0;
+  box-shadow: none;
+}
+
+.col-2.col-sm-4.col-md-3.col-lg-2.col-xl-2 {
+  margin: 8px;
+}
+
+.brand {
+  width: 150px;
+}
+
+@media (max-width: 600px) {
+  .text-center.bene-div {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .big-img {
+    width: 80vh;
+  }
+}
+
+@media (max-width: 601px) {
+  #system {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 602px) {
+  #system {
+    width: 40vw;
+  }
+}
+
+.quotes-para {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.h4, h4 {
+  font-size: 16px;
+  font-family: 'Poppins';
+  margin-top: 24px;
+  color: purple;
+  margin-left: 24px;
+}
+
+.case-study-image {
+  width: inherit;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.case-study-image-image {
+  width: inherit;
+  padding-right: 48px;
+}
+
+.quote {
+  height: 20vh;
+  box-shadow: 2px 4px 6px #00000030;
+  border-radius: 8px;
+  padding-top: 16px;
+  margin-bottom: 24px;
+}
+
+.triplets {
+  height: 10vh;
+  box-shadow: 2px 4px 6px #00000030;
+  border-radius: 8px;
+  padding-top: 16px;
+  margin-bottom: 24px;
+}
+
+.triplets-demo {
+  height: 20vh;
+  box-shadow: 2px 4px 6px #00000030;
+  border-radius: 8px;
+  padding-top: 16px;
+  margin-bottom: 24px;
+  width: 70vw;
+}
+
+.pricing-title {
+}
+
+.price {
+  margin: 0;
+}
+
+.pricing-euro {
+  margin: 0;
+  padding-left: 8px;
+}
+
+.price-per-unit {
+  margin-top: 12px;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  background-color: #fff;
+  border: none;
+}
+
+.text-center.includes {
+  margin: 0;
+}
+
+.list-group.features-pricing-list {
+  font-family: 'poppins';
+}
+
+.pricing-div {
+  border-radius: 16px;
+  box-shadow: 0px 0px 6px #00000020;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding-top: 24px;
+  padding-bottom: 36px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.text-center.pricing-title {
+  margin-bottom: 0;
+}
+

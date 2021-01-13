@@ -186,3 +186,9 @@ p {
   margin-bottom: 40vh;
 }
 
+@media (max-width: 576px) {
+  .benefits {
+    padding-top: 20vh;
+  }
+}
+

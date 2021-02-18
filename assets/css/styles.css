@@ -56,21 +56,16 @@
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #D9145C;
-  border-color: #D9145C;
+  background-color: #BF505A;
 }
 
 .btn-primary.focus, .btn-primary:focus {
   color: #fff;
-  background-color: #D9145C;
-  border-color: #D9145C;
   box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #D9145C;
-  border-color: #D9145C;
 }
 
 .landing-row {
